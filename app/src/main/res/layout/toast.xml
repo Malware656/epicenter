@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rectangle"
+    android:scaleX="0.8"
+    android:scaleY="0.8"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:clipChildren="true"
+        android:layout_marginStart="2dp"
+        android:src="@mipmap/ic_launcher"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/rounded_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitCenter"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@id/logo"
+        android:maxLines="2"
+        android:text="@string/toast_message"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</RelativeLayout>

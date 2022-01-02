@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Epicenter</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="logo">logo</string>
+    <string name="toast_message">Toast Message</string>
+    <string name="test_message">Presenting the lyrical video of the song love song Tum Jo Aye from the Bollywood movie Once Upon a Time in Mumbaai.The movie featuresfeaturing Ajay Devgn, Emraan Hashmi, Kangana Ranaut, Prachi Desai in leading roles,</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="android">Android</string>
+    <string name="app_description">Simple Centralized App</string>
+    <string name="about">Made for Minimalists 😉</string>
+    <string name="sign_in">Sign in</string>
+    <string name="logout">Logout</string>
+    <string name="give_permissions">Give permissions</string>
+    <string name="setup">setup</string>
+    <string name="powered_by_firebase">Powered by Firebase</string>
+    <string name="tile_icon">Tile_icon</string>
+    <string name="leading_icon">leading_icon</string>
+</resources>

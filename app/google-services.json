@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744403129062",
+    "project_id": "epicenter-1f1a1",
+    "storage_bucket": "epicenter-1f1a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744403129062:android:5e0b935c29bc333cbe2127",
+        "android_client_info": {
+          "package_name": "com.malware.epicenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744403129062-agqnip4uif2qvj2j5ut65qvimvt0qsj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PSV2C5W8swJ62-UDEB4CqNHdx4YX_NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744403129062-agqnip4uif2qvj2j5ut65qvimvt0qsj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.malware.epicenter"
+        minSdk 24
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs{
+        debug {
+            storeFile file("keystore.jks")
+            storePassword "malware656"
+            keyAlias "epicenter"
+            keyPassword "malware656"
+        }
+        release {
+            storeFile file("keystore.jks")
+            storePassword "malware656"
+            keyAlias "epicenter"
+            keyPassword "malware656"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    runtimeOnly group: 'com.google.android.material', name: 'material', version: '1.6.0-alpha01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+    implementation 'com.google.firebase:firebase-analytics'
+    // Sign in with google
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+
+}
+
+// 744403129062-ah8rp6cmu8to2b2lpsd2umbq1c1fu4ts.apps.googleusercontent.com
+// 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

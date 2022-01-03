@@ -6,4 +6,8 @@
     <color name="navy">#2D4263</color>
     <color name="red">#C84B31</color>
     <color name="beige">#ECDBBA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="mild_blue">#eceff1</color>
+    <color name="light_blue_200">#81d4f4</color>
+    <color name="light_blue_300">#64B5F6</color>
 </resources>

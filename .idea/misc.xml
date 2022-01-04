@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/logout.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/navy_ripple.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/drawable/pdf.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/ripple.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/round.xml" value="0.13333333333333333" />
         <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.21354166666666666" />
@@ -22,6 +23,7 @@
         <entry key="app/src/main/res/drawable/shield_moon.xml" value="0.1109375" />
         <entry key="app/src/main/res/drawable/sort.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/tilt_shift.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/video.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/layout-v29/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout-v31/toast.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1875" />

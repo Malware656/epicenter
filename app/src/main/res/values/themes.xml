@@ -3,9 +3,24 @@
     <style name="Theme.StylesApp" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/navy</item>
+        <item name="colorSecondary">@color/white</item>
         <item name="android:statusBarColor">@color/navy</item>
+
     </style>
     <style name="MyToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorSecondary">#333333</item>
+    </style>
+    <style name="SimpleButton" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="background">@drawable/ripple</item>
+    </style>
+    <style name="Theme.App" parent="Theme.MaterialComponents">
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
     </style>
 </resources>

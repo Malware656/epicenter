@@ -3,6 +3,7 @@
     <style name="Theme.StylesApp" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/navy</item>
+        <item name="actionSheetStyle">@style/ActionSheetStyleiOS7</item>
         <item name="android:statusBarColor">@color/navy</item>
     </style>
     <style name="RippleEffect">

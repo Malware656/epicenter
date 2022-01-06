@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="8dp"
+    android:background="@drawable/rounded_15"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Compress"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_toStartOf="@id/bottom_sheet_some"-->
+<!--        android:id="@+id/bottom_sheet_delete"/>-->
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Delete"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:id="@+id/bottom_sheet_some"/>-->
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="TODO"
+        android:gravity="bottom|left"
+        android:text="Add to archive"
+        app:strokeColor="@color/orange"
+        app:strokeWidth="1dp"
+        app:icon="@drawable/archive_24"
+        app:iconTint="@color/red" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/floating_action_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="TODO"
+        android:text="Delete"
+        app:strokeColor="@color/red"
+        app:strokeWidth="1dp"
+        android:theme="@style/ShapeAppearance.App.SmallComponent"
+        app:icon="@drawable/ic_baseline_folder_delete_24"
+        app:iconTint="@color/red" />
+</RelativeLayout>

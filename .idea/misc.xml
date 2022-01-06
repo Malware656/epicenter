@@ -12,12 +12,14 @@
         <entry key="app/src/main/res/drawable/google__g__logo.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/google_g_logo.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/home.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/ic_baseline_folder_delete_24.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/logout.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/navy_ripple.xml" value="0.10208333333333333" />
         <entry key="app/src/main/res/drawable/pdf.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/ripple.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/round.xml" value="0.13333333333333333" />
+        <entry key="app/src/main/res/drawable/rounded_40.xml" value="0.1109375" />
         <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/drawable/rounded_square.xml" value="0.1109375" />
         <entry key="app/src/main/res/drawable/setup.xml" value="0.21354166666666666" />
@@ -29,6 +31,7 @@
         <entry key="app/src/main/res/layout-v31/toast.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/android_layout.xml" value="0.24" />
+        <entry key="app/src/main/res/layout/bottom_sheet.xml" value="0.2921875" />
         <entry key="app/src/main/res/layout/folder_details.xml" value="0.44" />
         <entry key="app/src/main/res/layout/list_tile.xml" value="0.6666666666666666" />
         <entry key="app/src/main/res/layout/login_layout.xml" value="0.26666666666666666" />
